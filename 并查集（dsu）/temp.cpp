@@ -32,7 +32,6 @@ int find_basic(int a)
 /*带路径优化的查找，入参为节点 index，返回祖先 index*/
 int find(int a)
 {
-    return dsu[a] == a ? a : dsu[a] = find(dsu[a]);
     if (a == dsu[a])
     {
         return a;
