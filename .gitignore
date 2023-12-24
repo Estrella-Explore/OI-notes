@@ -1,6 +1,6 @@
-.exe
+*.exe
 
-.cpp
-.cc
-.c
-.h
+*.cpp
+*.cc
+*.c
+*.h
