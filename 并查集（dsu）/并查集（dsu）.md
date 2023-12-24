@@ -106,13 +106,13 @@ void merge(int a, int b)
 
 #### 可能的问题——退化
 
-![路径退化](img\route_degradation.png "退化为链表")
+![路径退化](img/route_degradation.png "退化为链表")
 
 如上图，有的时候树会退化为链表，造成复杂度提升，而大多数时候我们只需要查找元素是否在同一集合
 
 于是我们可以把该链表改写成在该情景下等效的树：
 
-![路径优化](img\better_route.png "路径优化")
+![路径优化](img/better_route.png "路径优化")
 
 ### 路径优化
 
